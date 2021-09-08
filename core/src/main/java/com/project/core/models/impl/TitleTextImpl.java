@@ -12,11 +12,9 @@ import javax.inject.Inject;
 defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class TitleTextImpl implements TitleText{
     @Inject
-    @Default(values = "My Offered Services")
     String title;
 
     @Inject
-    @Default(values = "At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.")
     String info;
     @Override
     public String getTitle() {

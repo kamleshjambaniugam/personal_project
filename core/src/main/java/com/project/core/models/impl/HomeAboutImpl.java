@@ -17,22 +17,21 @@ defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 public class HomeAboutImpl implements HomeAbout{
     @Inject
-    @Default(values = "About Me")
+
     String about;
 
     @Inject
     String img;
 
     @Inject
-    @Default(values = "Discover Now")
+
     String mybutton;
 
     @Inject
-    @Default(values = " Personal Details")
+
     String details;
 
     @Inject
-    @Default(values = "Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.\n" )
     String intro;
     @Override
     public String getAbout() {

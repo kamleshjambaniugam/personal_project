@@ -19,19 +19,18 @@ import javax.inject.Inject;
 )
 public class HomeBannerImpl implements HomeBanner {
     @Inject
-    @Default(values = "This is me")
+
     String bio;
 
     @Inject
-    @Default(values = "Discover Now")
+
     String mybutton;
 
     @Inject
-    @Default(values = " Philip Gilbert")
+
     String fullname;
 
     @Inject
-    @Default(values = "You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.\n" )
     String intro;
 
     @Inject
