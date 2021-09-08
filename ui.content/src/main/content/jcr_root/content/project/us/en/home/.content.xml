@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-08T11:24:57.748+05:30"
+        cq:lastModified="{Date}2021-09-08T15:33:54.609+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/project/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -24,42 +24,71 @@
                     sling:resourceType="project/components/container"
                     layout="responsiveGrid">
                     <homebannerarea
-                        jcr:created="{Date}2021-09-07T11:26:26.024+05:30"
+                        jcr:created="{Date}2021-09-08T15:26:43.846+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-07T19:04:19.806+05:30"
+                        jcr:lastModified="{Date}2021-09-08T15:28:11.909+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/homebannerarea"
-                        bio="heyy,pooja"
-                        fullname="kamlesh jambani"
+                        bio="This is me"
+                        fullname="Philip Gilbert"
                         img="/content/dam/project/hero-img.png"
-                        intro="heey ya"
-                        mybutton="hi"/>
+                        intro="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
+                        mybutton="discover now"/>
                     <homeabout
-                        jcr:created="{Date}2021-09-07T11:45:16.043+05:30"
+                        jcr:created="{Date}2021-09-08T15:28:20.698+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T11:24:57.721+05:30"
+                        jcr:lastModified="{Date}2021-09-08T15:30:35.987+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/homeabout"
+                        about="About Me"
+                        details="Personal Details"
                         img="/content/dam/project/about-img.png"
-                        mybutton="hi"/>
+                        intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"
+                        mybutton="View Full Details"/>
                     <titletext
-                        jcr:created="{Date}2021-09-07T12:06:47.740+05:30"
+                        jcr:created="{Date}2021-09-08T15:30:48.449+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-07T18:14:56.427+05:30"
+                        jcr:lastModified="{Date}2021-09-08T15:31:27.272+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/titletext"
-                        info="jBXK ckl"
-                        title="kamlesh"/>
+                        info="At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.&#xd;&#xa;&#x9;&#x9;                    "
+                        title="My Offered Services"/>
                     <service
-                        jcr:created="{Date}2021-09-07T12:13:11.605+05:30"
+                        jcr:created="{Date}2021-09-08T15:32:22.194+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-07T12:13:11.605+05:30"
+                        jcr:lastModified="{Date}2021-09-08T15:32:22.194+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/service"/>
+                    <factarea
+                        jcr:created="{Date}2021-09-08T15:32:31.129+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-08T15:33:54.602+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/factarea">
+                        <factdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Projects Completed"
+                                factnumber="2536"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Happy Clients"
+                                factnumber="6784"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Cups of Coffee"
+                                factnumber="2239"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Real Professionals"
+                                factnumber="435"/>
+                        </factdetailswithmap>
+                    </factarea>
                 </container>
             </container>
         </root>
