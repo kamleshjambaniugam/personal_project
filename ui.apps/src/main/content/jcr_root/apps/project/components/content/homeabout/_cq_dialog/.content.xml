@@ -29,17 +29,17 @@
                     <about
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="About me"
+                        fieldLabel="Heading"
                         name="./about"/>
                     <details
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Details"
+                        fieldLabel="Title"
                         name="./details"/>
                     <intro
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                        fieldLabel="Intro"
+                        fieldLabel="Description"
                         name="./intro"/>
                     <mybutton
                         jcr:primaryType="nt:unstructured"

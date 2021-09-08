@@ -15,17 +15,17 @@
                     <bio
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Bio"
+                        fieldLabel="Heading"
                         name="./bio"/>
                     <fullname
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Full Name"
+                        fieldLabel="Title"
                         name="./fullname"/>
                     <intro
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                        fieldLabel="Intro"
+                        fieldLabel="Description"
                         name="./intro"/>
                     <mybutton
                         jcr:primaryType="nt:unstructured"
