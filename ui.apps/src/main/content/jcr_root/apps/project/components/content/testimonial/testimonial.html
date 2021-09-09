@@ -1,0 +1,22 @@
+<sly data-sly-use.test="com.project.core.models.Testimonial"></sly>
+
+ 
+
+ <section class="testimonial-area section-gap">
+		        <div class="container">
+                <div class="row" >
+		                <div class="active-testimonial" data-sly-list =${test.testimonialDetails} >
+		                    <div class="single-testimonial item d-flex flex-row">
+
+		                        <div class="desc">
+		                            <p>${item.description}
+		                               </p>
+		                            <h4>${item.heading}</h4>
+		                            <p>${item.title}</p>
+		                        </div>
+		                    </div>
+                          </div>
+                         </div>
+                        </div>
+                       </section>
+

@@ -19,6 +19,8 @@ public class HomeAboutImpl implements HomeAbout{
     @Inject
 
     String about;
+    @Inject
+    String path;
 
     @Inject
     String img;
@@ -56,6 +58,11 @@ public class HomeAboutImpl implements HomeAbout{
     @Override
     public String getImage() {
         return img;
+    }
+
+    @Override
+    public String getPath() {
+        return path;
     }
 
     //final protected static String RESOURCE_TYPE="";

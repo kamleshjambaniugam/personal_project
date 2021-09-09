@@ -32,6 +32,8 @@ public class HomeBannerImpl implements HomeBanner {
 
     @Inject
     String intro;
+    @Inject
+    String path;
 
     @Inject
     String buttonTitle;
@@ -62,6 +64,11 @@ public class HomeBannerImpl implements HomeBanner {
     @Override
     public String getMyButton() {
         return mybutton;
+    }
+
+    @Override
+    public String getPath() {
+        return path;
     }
 
 }

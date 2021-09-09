@@ -1,5 +1,6 @@
 package com.project.core.models.impl;
 
+import com.project.core.models.Services;
 import com.project.core.models.TitleText;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Default;
@@ -8,20 +9,14 @@ import org.apache.sling.models.annotations.Model;
 
 import javax.inject.Inject;
 
-@Model(adaptables = Resource.class,adapters = TitleText.class,
-defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class TitleTextImpl implements TitleText{
-    @Inject
-    Boolean paddingbottom;
-
-    @Inject
-    Boolean sectiongap;
-
+@Model(adaptables = Resource.class,adapters = Services.class,
+        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+public class ServicesImpl implements Services{
     @Inject
     String title;
 
     @Inject
-    String info;
+    String description;
     @Override
     public String getTitle() {
         return title;
@@ -29,16 +24,6 @@ public class TitleTextImpl implements TitleText{
 
     @Override
     public String getInfo() {
-        return info;
-    }
-
-    @Override
-    public Boolean getPaddingBottom() {
-        return paddingbottom;
-    }
-
-    @Override
-    public Boolean getSectionGap() {
-        return sectiongap;
+        return description;
     }
 }

@@ -6,4 +6,5 @@ public interface HomeBanner {
     String getIntro();
     String getImage();
     String getMyButton();
+    String getPath();
 }
