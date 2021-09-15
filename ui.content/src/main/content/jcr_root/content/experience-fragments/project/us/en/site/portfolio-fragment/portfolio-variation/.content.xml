@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-15T16:51:34.663+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/project/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Portfolio variation"
+        sling:resourceType="project/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <titletext_copy
+                jcr:created="{Date}2021-09-15T16:49:15.981+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:50:05.854+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/titletext"
+                css="false"
+                info="Who are in extremely love with eco friendly system."
+                paddingbottom="true"
+                sectiongap="true"
+                title="Our Latest Featured Projects"/>
+            <portfolio_copy
+                jcr:created="{Date}2021-09-15T16:38:40.103+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:42:32.805+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/portfolio"
+                img="/content/dam/project/p1.jpg"
+                title="2D Vinyl Design"
+                type="vector">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </portfolio_copy>
+            <portfolio_905428253_
+                jcr:created="{Date}2021-09-15T16:38:49.900+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:43:38.028+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/portfolio"
+                img="/content/dam/project/p2.jpg"
+                title="2D Vinyl Design"
+                type="vector">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </portfolio_905428253_>
+            <portfolio_2071827026
+                jcr:created="{Date}2021-09-15T16:39:00.286+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:48:36.411+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/portfolio"
+                img="/content/dam/project/p3.jpg"
+                title="Creative Poster Design "
+                type="Agency">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </portfolio_2071827026>
+        </root>
+    </jcr:content>
+</jcr:root>

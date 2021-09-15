@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-08T15:33:54.609+05:30"
+        cq:lastModified="{Date}2021-09-15T17:08:09.457+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/project/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -26,7 +26,7 @@
                     <homebannerarea
                         jcr:created="{Date}2021-09-08T15:26:43.846+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T15:28:11.909+05:30"
+                        jcr:lastModified="{Date}2021-09-13T11:38:23.140+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/homebannerarea"
@@ -34,11 +34,12 @@
                         fullname="Philip Gilbert"
                         img="/content/dam/project/hero-img.png"
                         intro="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
-                        mybutton="discover now"/>
+                        mybutton="discover now"
+                        path="/content/project/us/en/about"/>
                     <homeabout
                         jcr:created="{Date}2021-09-08T15:28:20.698+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T15:30:35.987+05:30"
+                        jcr:lastModified="{Date}2021-09-09T11:29:46.605+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="project/components/content/homeabout"
@@ -46,23 +47,16 @@
                         details="Personal Details"
                         img="/content/dam/project/about-img.png"
                         intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"
-                        mybutton="View Full Details"/>
-                    <titletext
-                        jcr:created="{Date}2021-09-08T15:30:48.449+05:30"
+                        mybutton="View Full Details"
+                        path="/content/aemgeeks/us/en"/>
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-15T17:06:03.552+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T15:31:27.272+05:30"
+                        jcr:lastModified="{Date}2021-09-15T17:06:03.552+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="project/components/content/titletext"
-                        info="At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.&#xd;&#xa;&#x9;&#x9;                    "
-                        title="My Offered Services"/>
-                    <service
-                        jcr:created="{Date}2021-09-08T15:32:22.194+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T15:32:22.194+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="project/components/content/service"/>
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/service-area-fragment/master"/>
                     <factarea
                         jcr:created="{Date}2021-09-08T15:32:31.129+05:30"
                         jcr:createdBy="admin"
@@ -89,6 +83,89 @@
                                 factnumber="435"/>
                         </factdetailswithmap>
                     </factarea>
+                    <experiencefragment_1467793753
+                        jcr:created="{Date}2021-09-15T17:08:09.447+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T17:08:09.447+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/portfolio-fragment/master"/>
+                    <experiencefragment_1610904328
+                        jcr:created="{Date}2021-09-15T17:07:25.045+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T17:07:25.045+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/testimonial-fragment/master"/>
+                    <experiencefragment_2114825679
+                        jcr:created="{Date}2021-09-15T17:06:51.076+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T17:06:51.076+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/price-fragment/master"/>
+                    <blog
+                        jcr:created="{Date}2021-09-09T17:41:35.633+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T17:43:14.702+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blog"
+                        description="Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career."
+                        img="/content/dam/project/b1.jpg"
+                        title="BREAK THROUGH SELF DOUBT AND FEAR">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blog>
+                    <blog_371569995
+                        jcr:created="{Date}2021-09-09T17:43:23.394+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T17:44:02.626+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blog"
+                        description="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
+                        img="/content/dam/project/b2.jpg"
+                        title="PORTABLE FASHION FOR YOUNG WOMEN">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blog_371569995>
+                    <blog_1421101060
+                        jcr:created="{Date}2021-09-09T17:44:09.337+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T17:44:41.751+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blog"
+                        description="So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved."
+                        img="/content/dam/project/b3.jpg"
+                        title="DO DREAMS SERVE AS A PREMONITION">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blog_1421101060>
+                    <brands
+                        jcr:created="{Date}2021-09-14T14:55:54.789+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-14T18:46:07.122+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/brands"
+                        imgpath="[/content/dam/project/l1.png,/content/dam/project/l2.png,/content/dam/project/l3.png,/content/dam/project/l4.png,/content/dam/project/l5.png]"/>
                 </container>
             </container>
         </root>

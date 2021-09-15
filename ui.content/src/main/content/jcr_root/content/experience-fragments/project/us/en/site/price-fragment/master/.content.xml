@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-15T17:01:20.991+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/project/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Price Fragment"
+        sling:resourceType="project/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <price
+                jcr:created="{Date}2021-09-15T16:57:40.739+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:58:52.931+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/price"
+                heading="Economy"
+                number="01"
+                tag1="Secure Online Transfer"
+                tag2="Unlimited Styles for interface"
+                tag3="Reliable Customer Service"
+                title="For the individuals">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </price>
+            <price_461047523
+                jcr:created="{Date}2021-09-15T16:57:52.748+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:59:24.243+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/price"
+                heading="Business"
+                number="02"
+                tag1="Secure Online Transfer"
+                tag2="Unlimited Styles for interface"
+                tag3="Reliable Customer Service"
+                title="For the individuals">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </price_461047523>
+            <price_1629784697
+                jcr:created="{Date}2021-09-15T16:58:04.606+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T17:00:08.456+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/price"
+                heading="Premium"
+                number="03"
+                tag1="Secure Online Transfer"
+                tag2="Unlimited Styles for interface"
+                tag3="Reliable Customer Service"
+                title="For the individuals">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </price_1629784697>
+            <price_2013876508
+                jcr:created="{Date}2021-09-15T16:58:24.907+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T17:00:28.340+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/price"
+                heading="Exclusive"
+                number="04"
+                tag1="Secure Online Transfer"
+                tag2="Unlimited Styles for interface"
+                tag3="Reliable Customer Service"
+                title="For the individuals">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </price_2013876508>
+        </root>
+    </jcr:content>
+</jcr:root>
