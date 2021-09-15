@@ -40,6 +40,15 @@
                         text="Bottom padding"
                         uncheckedValue="{Boolean}false"
                         value="{Boolean}true"/>
+                    <css
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        checked="{Boolean}false"
+                        fieldDescription="adding the css."
+                        name="./css"
+                        text="CSS"
+                        uncheckedValue="{Boolean}false"
+                        value="{Boolean}true"/>
                 </items>
             </column>
         </items>

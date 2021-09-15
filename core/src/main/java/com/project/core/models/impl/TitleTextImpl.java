@@ -13,6 +13,8 @@ defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class TitleTextImpl implements TitleText{
     @Inject
     Boolean paddingbottom;
+    @Inject
+    Boolean css;
 
     @Inject
     Boolean sectiongap;
@@ -40,5 +42,10 @@ public class TitleTextImpl implements TitleText{
     @Override
     public Boolean getSectionGap() {
         return sectiongap;
+    }
+
+    @Override
+    public Boolean getCss() {
+        return css;
     }
 }

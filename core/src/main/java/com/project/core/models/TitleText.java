@@ -5,4 +5,5 @@ public interface TitleText {
     String getInfo();
     Boolean getPaddingBottom();
     Boolean getSectionGap();
+    Boolean getCss();
 }
