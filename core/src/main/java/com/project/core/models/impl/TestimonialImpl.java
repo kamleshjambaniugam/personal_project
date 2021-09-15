@@ -6,6 +6,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import javax.inject.Inject;
@@ -21,15 +22,15 @@ import java.util.Map;
 )
 public class TestimonialImpl implements Testimonial {
     private static final Logger LOG = LoggerFactory.getLogger(TestimonialImpl.class);
-    @Inject
-    Resource componentResource;
+   @ChildResource 
+    Resource testimonialdetailswithmap;
     @Override
     public List<Map<String, String>> getTestimonialDetails() {
         List<Map<String, String>> TestimonialDetailsMap= new ArrayList<>();
         try {
-            Resource testDetail=componentResource.getChild("testimonialdetailswithmap");
-            if( testDetail!=null){
-                for (Resource fact :  testDetail.getChildren()) {
+            //Resource testDetail=componentResource.getChild("testimonialdetailswithmap");
+            if( testimonialdetailswithmap!=null){
+                for (Resource fact :  testimonialdetailswithmap.getChildren()) {
                     Map<String,String> testMap=new HashMap<>();
                     testMap.put("description",fact.getValueMap().get("description",String.class));
                     testMap.put("heading",fact.getValueMap().get("heading",String.class));
@@ -43,4 +44,5 @@ public class TestimonialImpl implements Testimonial {
         LOG.info("\n SIZE {} ",TestimonialDetailsMap.size());
         return TestimonialDetailsMap;
     }
+
 }
