@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastReplicated="{Date}2021-09-16T18:32:27.739+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="cq:Page">
     <templates/>
     <policies
@@ -18,7 +22,12 @@
                             jcr:title="Content Form"
                             sling:resourceType="wcm/core/components/policy/policy"
                             components="[/apps/project/components/form/button,/apps/project/components/form/hidden,/apps/project/components/form/options,/apps/project/components/form/text]">
-                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <jcr:content
+                                cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                                cq:lastReplicatedBy="admin"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"/>
                         </form-container>
                     </container>
                 </form>
@@ -47,7 +56,12 @@
                         jpegQuality="{Long}85"
                         titleValueFromDAM="true"
                         uuidDisabled="true">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <plugins jcr:primaryType="nt:unstructured">
                             <crop
                                 jcr:primaryType="nt:unstructured"
@@ -85,7 +99,12 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Text"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <rtePlugins jcr:primaryType="nt:unstructured">
                             <paraformat
                                 jcr:primaryType="nt:unstructured"
@@ -178,7 +197,12 @@
                         allowedTypes="h1"
                         linkDisabled="true"
                         type="h1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_641475696923109>
                     <policy_641528232375303
                         jcr:description="Allows all sizes, but not H1, which is reserved for the main page title."
@@ -188,7 +212,12 @@
                         allowedTypes="[h2,h3,h4,h5,h6]"
                         linkDisabled="false"
                         type="h2">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_641528232375303>
                 </title>
                 <experiencefragment jcr:primaryType="nt:unstructured">
@@ -198,7 +227,12 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Page Header"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_header>
                     <policy_footer
                         cq:styleDefaultElement="footer"
@@ -206,7 +240,12 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Page Footer"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_footer>
                 </experiencefragment>
                 <container jcr:primaryType="nt:unstructured">
@@ -216,7 +255,12 @@
                         jcr:title="Page Root"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:Personal project - Content,/apps/project/components/form/container,group:Personal project - Structure]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                 <mapping_1575024218483
@@ -249,7 +293,12 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:Personal project - Content,/apps/project/components/form/container]"
                         layoutDisabled="false">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                 <mapping_1575030255082
@@ -279,7 +328,12 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Page Main"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_649128221558427>
                     <policy_1575040440977
                         jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
@@ -313,7 +367,7 @@
                     </policy_1575040440977>
                     <policy_29024282663200
                         jcr:description="new component policy"
-                        jcr:lastModified="{Date}2021-09-14T19:13:56.539+05:30"
+                        jcr:lastModified="{Date}2021-09-16T17:37:37.047+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="new component policy"
@@ -333,6 +387,16 @@
                         layoutDisabled="false">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_4939334024400>
+                    <policy_16602502373800
+                        jcr:lastModified="{Date}2021-09-16T16:57:01.061+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="custom-xf component policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/project/components/content/blog,/apps/project/components/content/brands,/apps/project/components/content/factarea,/apps/project/components/content/footer,/apps/project/components/content/header,/apps/project/components/content/homeabout,/apps/project/components/content/homebannerarea,/apps/project/components/content/menunav,/apps/project/components/content/portfolio,/apps/project/components/content/price,/apps/project/components/content/service,/apps/project/components/content/testimonial,/apps/project/components/content/titletext]"
+                        layoutDisabled="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_16602502373800>
                 </container>
                 <teaser jcr:primaryType="nt:unstructured">
                     <policy_1575031387650
@@ -341,7 +405,12 @@
                         jcr:title="Content Teaser"
                         sling:resourceType="wcm/core/components/policy/policy"
                         titleType="h3">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1575031387650>
                 </teaser>
                 <download jcr:primaryType="nt:unstructured">
@@ -355,7 +424,12 @@
                         displayFormat="true"
                         displaySize="true"
                         titleType="h3">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1575032193319>
                 </download>
                 <page jcr:primaryType="nt:unstructured">
@@ -368,9 +442,34 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         clientlibs="[project.dependencies,project.site]"
                         clientlibsJsHead="project.dependencies">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-09-16T18:50:40.211+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy>
                 </page>
+                <xfpage jcr:primaryType="nt:unstructured">
+                    <policy_1631791393322
+                        jcr:lastModified="{Date}2021-09-16T16:55:18.763+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="custom-xf page policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[project.site,project.dependencies]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1631791393322>
+                    <policy_18807318143100
+                        jcr:lastModified="{Date}2021-09-16T17:33:03.257+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="second-xf-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[project.site,project.dependencies]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_18807318143100>
+                </xfpage>
             </components>
         </project>
         <core jcr:primaryType="nt:unstructured">

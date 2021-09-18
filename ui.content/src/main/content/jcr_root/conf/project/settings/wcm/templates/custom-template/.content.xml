@@ -4,6 +4,10 @@
     <jcr:content
         cq:lastModified="{Date}2021-09-13T18:58:33.672+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-09-16T18:32:50.073+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[experience-fragments:variation/web]"
         cq:templateType="/conf/project/settings/wcm/template-types/custom"
         jcr:primaryType="cq:PageContent"
         jcr:title="Custom-template"
