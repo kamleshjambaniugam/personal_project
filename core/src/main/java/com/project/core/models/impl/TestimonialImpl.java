@@ -5,6 +5,7 @@ import com.project.core.models.Testimonial;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.slf4j.Logger;
@@ -18,9 +19,13 @@ import java.util.Map;
 @Model(
         adaptables = SlingHttpServletRequest.class,
         adapters = Testimonial.class,
+        resourceType =TestimonialImpl.RESOURCE_TYPE,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
+@Exporter(name = "jackson",extensions = "json",selector = "Testimonial")
 public class TestimonialImpl implements Testimonial {
+    static final String RESOURCE_TYPE="project/components/content/testimonial";
+
     private static final Logger LOG = LoggerFactory.getLogger(TestimonialImpl.class);
    @ChildResource 
     Resource testimonialdetailswithmap;
