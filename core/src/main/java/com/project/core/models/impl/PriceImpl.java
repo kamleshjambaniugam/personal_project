@@ -1,27 +1,29 @@
 package com.project.core.models.impl;
 
 import com.project.core.models.Price;
+import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 import javax.inject.Inject;
 
-@Model(adaptables = Resource.class,adapters = Price.class,
+@Model(adaptables = SlingHttpServletRequest.class,adapters = Price.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 
 public class PriceImpl implements Price {
-    @Inject
+    @ValueMapValue
     String number;
-    @Inject
+    @ValueMapValue
     String heading;
-    @Inject
+    @ValueMapValue
     String title;
-    @Inject
+    @ValueMapValue
     String tag1;
-    @Inject
+    @ValueMapValue
     String tag2;
-    @Inject
+    @ValueMapValue
     String tag3;
 
 

@@ -5,6 +5,7 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
 
 import javax.inject.Inject;
@@ -12,10 +13,12 @@ import javax.inject.Inject;
 @Model(
 adaptables = Resource.class,
         adapters = HomeAbout.class,
-//resourceType =HomeAbout.RESOURCE_TYPE,
+    resourceType =HomeAboutImpl.RESOURCE_TYPE,
 defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
+@Exporter(name = "jackson",extensions = "json")
 public class HomeAboutImpl implements HomeAbout{
+    static final String RESOURCE_TYPE="project/components/content/homeabout";
     @Inject
 
     String about;

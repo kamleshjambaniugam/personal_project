@@ -8,37 +8,38 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 import javax.inject.Inject;
 
 @Model(
-        adaptables = Resource.class,
+        adaptables = SlingHttpServletRequest.class,
         adapters = HomeBanner.class,
 //resourceType =HomeAbout.RESOURCE_TYPE,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 public class HomeBannerImpl implements HomeBanner {
-    @Inject
+    @ValueMapValue
 
     String bio;
 
-    @Inject
+    @ValueMapValue
 
     String mybutton;
 
-    @Inject
+    @ValueMapValue
 
     String fullname;
 
-    @Inject
+    @ValueMapValue
     String intro;
-    @Inject
+    @ValueMapValue
     String path;
 
-    @Inject
+    @ValueMapValue
     String buttonTitle;
 
-    @Inject
+    @ValueMapValue
     String img;
 
     @Override
